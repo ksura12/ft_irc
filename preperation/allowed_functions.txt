@@ -1,0 +1,49 @@
+    socket: creates a new socket for communication over a network.
+
+    close: closes an open socket.
+
+    setsockopt: sets options for a socket, such as the socket type, buffer size, or timeouts.
+
+    getsockname: retrieves the local address and port associated with a socket.
+
+    getprotobyname: retrieves the protocol number associated with a protocol name.
+
+    gethostbyname: retrieves information about a host, such as its IP address and host name.
+
+    getaddrinfo: retrieves a list of address structures for a host.
+
+    freeaddrinfo: frees a list of address structures returned by getaddrinfo.
+
+    bind: associates a socket with a local address and port.
+
+    connect: establishes a connection to a remote address and port.
+
+    listen: marks a socket as a passive socket that can accept incoming connections.
+
+    accept: accepts a new connection from a remote client.
+
+    htons: converts a 16-bit integer from host byte order to network byte order.
+
+    htonl: converts a 32-bit integer from host byte order to network byte order.
+
+    ntohs: converts a 16-bit integer from network byte order to host byte order.
+
+    ntohl: converts a 32-bit integer from network byte order to host byte order.
+
+    inet_addr: converts a dotted-decimal IP address to an integer.
+
+    inet_ntoa: converts an integer IP address to a dotted-decimal IP address.
+
+    send: sends data over a socket.
+
+    recv: receives data from a socket.
+
+    signal: sets the function to be called when a specified signal is received.
+
+    lseek: repositions the file offset of a file descriptor.
+
+    fstat: retrieves information about a file or a file descriptor.
+
+    fcntl: performs file control operations, such as changing the access mode of a file or locking a file.
+
+    poll: waits for events on a set of file descriptors.
